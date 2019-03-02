@@ -1,0 +1,13 @@
+Name: Enock Gansou
+ID: 115045637
+Disclaimer:
+To do part 2, I used the canonical part from part 1. I modified the pr quadtree 
+so that it also contains roads and then becomes a pm quadtree.
+I also used the treemap source code and modify it, so that it becomes a treap. I modified
+the entry class and the put method, so that it does what a treap is supposed to do.
+I also add methods to the entryset and implements the equals method.
+Eventually, I used this link to implement my shortest path part 
+https://github.com/palianytsia/algorithms/blob/master/src/main/java/edu/stanford/algo/greedy/Dijkstra.java
+In fact, this was implemented using a greedy algorithm via priorty queue. Thus I created my graph structure 
+using treemap and feed data to my modified shortest path method.
+  
